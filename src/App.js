@@ -15,7 +15,7 @@ function App() {
     <Container style={{backgroundColor: '#f5f5f5'}} fluid>
       <Row>
         <Col xs={12} md={2} lg={3}><Card style={{marginTop: '40px', marginBottom: '40px', height: 'calc(100% - 80px)'}}><Card.Body><Sidebar /></Card.Body></Card></Col>
-        <Col>
+        <Col xs={12} md={10} lg={9}>
           <Row>
             <Col><Card style={{marginTop: '40px'}}><Card.Body><Chart /></Card.Body></Card></Col>
           </Row>
